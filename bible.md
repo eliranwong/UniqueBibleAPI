@@ -25,6 +25,10 @@ Parameter description:
 * Perform a search in the bible if no valid bible reference is given.
 * If a search is performed, the default search mode is specified by the value of `bibleSearchMode` in UniqueBible App `config.py`.
 
+# Command Format
+
+BIBLE:::[BIBLE_VERSION]:::[SEARCH_STRING]
+
 # Examples
 
 Command: `John 3:16`
