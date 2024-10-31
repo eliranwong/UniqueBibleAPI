@@ -10,15 +10,19 @@ These commands work with most [running modes](https://github.com/eliranwong/Uniq
 
 In particular, our web API endpoints work directly with UniqueBible App commands.
 
-For example, to retrieve commentaries on John 2:4-7, the UniqueBible command is `Commentary:::John 2:4-7`.
+For example, we are running an UniqueBible App web server at https://bible.gospelchurch.uk.
 
-To retrieve the commentary via the web APIs:
+The command to read John 3:16 in the `NET` Bible is `bible:::NET:::John 3:16`.
 
-   Raw html output - https://bible.gospelchurch.uk/html?cmd=Commentary:::John%202:4-7
+You can read the verse in the NET version directly by opening https://bible.gospelchurch.uk/index.html?cmd=bible:::NET:::John%203:16 in a web browser.
 
-   JSON output - https://bible.gospelchurch.uk/json?cmd=Commentary:::John%202:4-7
+You can also retrieve the data via the web APIs in three formats:
 
-   Plain text output - https://bible.gospelchurch.uk/plain?cmd=Commentary:::John%202:4-7
+   Raw html output - https://bible.gospelchurch.uk/html?cmd=bible:::NET:::John%203:16
+
+   JSON output - https://bible.gospelchurch.uk/json?cmd=bible:::NET:::John%203:16
+
+   Plain text output - https://bible.gospelchurch.uk/plain?cmd=bible:::NET:::John%203:16
 
    Remarks: API outputs use `utf-8` encoding.
 
