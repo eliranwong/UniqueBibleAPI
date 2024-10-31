@@ -81,13 +81,13 @@ There are two commands that are supported ONLY in web APIs, not in other UniqueB
 
 This command retrieves information about available resources loaded in the web server.
 
-Read more at https://github.com/eliranwong/UniqueBibleAPI/.suggestions.md
+Read more at https://github.com/eliranwong/UniqueBibleAPI/blob/main/.resources.md
 
 `.suggestions`
 
 This command retrieves nested suggestions of UniqueBible App commands.
 
-Read more at https://github.com/eliranwong/UniqueBibleAPI/.suggestions.md
+Read more at https://github.com/eliranwong/UniqueBibleAPI/blob/main/.suggestions.md
 
 # Available Web API Endpoints
 
