@@ -34,10 +34,32 @@ JSON output - https://bible.gospelchurch.uk/json?cmd=commentary:::John%202:4-7
 
 Plain text output - https://bible.gospelchurch.uk/plain?cmd=commentary:::John%202:4-7
 
-Remarks: Web API outputs use `utf-8` encoding.
+Remarks: Web API outputs use `utf-8` encoding. You may want to decode non-English characters, e.g.:
 
-Therefore, you can master UniqueBible APIs by mastering UniqueBible App commands.
+```
+import requests
+r = requests.get("https://bible.gospelchurch.uk/plain?cmd=commentary:::John%202:4-7")
+r.encoding = "utf-8"
+print(r.text)
+```
 
-These commands are also consistent across different running modes that UniqueBible App supports.
+As UniqueBible App commands are consistent across different running modes that UniqueBible App supports, you can master UniqueBible APIs by mastering these commands.
 
 This repository aims to provide detailed documentation on how to formulate UniqueBible App commands that work with UniqueBible App web APIs.
+
+# UniqueBible App Command Format
+
+You need to understand briefly about the format of an UniqueBible App command.
+
+UniqueBible App commands use triple colons `:::` as separators in its built-in commands.
+
+The first element is the command keyword, followed by optional or required parameters.
+
+If keyword is not explicitly stated in the command, the default keyboard `bible` is used by default.
+
+Before going into details, we would like to add a few more remarks.
+
+# Access to Private Data
+
+...
+
