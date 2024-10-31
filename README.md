@@ -12,20 +12,32 @@ In particular, our web API endpoints work directly with UniqueBible App commands
 
 For example, we are running an UniqueBible App web server at https://bible.gospelchurch.uk.
 
-The command to read John 3:16 in the `NET` Bible is `bible:::NET:::John 3:16`.
+The command to read commentary on John 2:4-5, the UniqueBible command that uses default commentary is `commentary:::John 2:4-5`.
 
-You can read the verse in the NET version directly by opening https://bible.gospelchurch.uk/index.html?cmd=bible:::NET:::John%203:16 in a web browser.
+You can launch the UniqueBible GUI app to navigate to it via GUI menu or enter the command in the command field directly to open the commentary.
+
+You can use the same command in other running modes, for example, in the stream mode:
+
+> uniquebible stream commentary:::John 2:4-5
+
+With UniqueBible web mode, you can both browse the content via web browser and retrieve the data via built-in web API endpoints: `/html`, `/json`, and `/plain`.
+
+For example, we have an UniqueBible App web server set up at https://bible.gospelchurch.uk
+
+You can read the commentary by opening https://bible.gospelchurch.uk/index.html?cmd=commentary:::John%202:4-5 in a web browser.
 
 You can also retrieve the data via the web APIs in three formats:
 
-   Raw html output - https://bible.gospelchurch.uk/html?cmd=bible:::NET:::John%203:16
+Raw html output - https://bible.gospelchurch.uk/html?cmd=commentary:::John%202:4-5
 
-   JSON output - https://bible.gospelchurch.uk/json?cmd=bible:::NET:::John%203:16
+JSON output - https://bible.gospelchurch.uk/json?cmd=commentary:::John%202:4-5
 
-   Plain text output - https://bible.gospelchurch.uk/plain?cmd=bible:::NET:::John%203:16
+Plain text output - https://bible.gospelchurch.uk/plain?cmd=commentary:::John%202:4-5
 
-   Remarks: API outputs use `utf-8` encoding.
+Remarks: Web API outputs use `utf-8` encoding.
 
-Therefore, you can master UniqueBible APIs with UniqueBible App commands.
+Therefore, you can master UniqueBible APIs by mastering UniqueBible App commands.
+
+These commands are also consistent across different running modes that UniqueBible App supports.
 
 This repository aims to provide detailed documentation on how to formulate UniqueBible App commands that work with UniqueBible App web APIs.
