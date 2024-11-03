@@ -1,0 +1,258 @@
+# REGEXSEARCH
+
+Keyword: REGEXSEARCH
+
+Keyword description:
+
+* Search for a regular expression pattern in a bible or multiple bibles.
+
+Parameter: BIBLE_VERSIONS [optional]
+
+Parameter description:
+
+* Specify a bible version or multiple bible versions.
+* Use underscore `_` as a separator to specify multiple bible versions.
+* Perform a search in the default bible version if this parameter is not given.
+
+Parameter: REGEX_PATTERN [required]
+
+Parameter description:
+
+* Specify a regular expression for the search.
+
+Parameter: BIBLE_BOOKS [optional]
+
+Parameter description:
+
+* Limit the scope of the search to the specified bible books only.
+
+# Command Format
+
+REGEXSEARCH:::[BIBLE_VERSIONS]:::[REGEX_PATTERN]:::[BIBLE_BOOKS]
+
+# Examples
+
+Command: `REGEXSEARCH:::NET_KJV:::God.*?kind`
+
+URL: https://bible.gospelchurch.uk/json?cmd=REGEXSEARCH:::NET_KJV:::God.*?kind
+
+Output:
+
+```
+{'content': 'REGEXSEARCH::: NET::: God.*?kind\n'
+            '\n'
+            'x 34 verse(s)\n'
+            '\n'
+            '(Gen 1:11) God said, “Let the land produce vegetation: plants '
+            'yielding seeds and trees on the land bearing fruit with seed in '
+            'it, according to their kind s.” It was so.\n'
+            '(Gen 1:21) God created the great sea creatures and every living '
+            'and moving thing with which the water swarmed, according to their '
+            'kind s, and every winged bird according to its kind. God saw that '
+            'it was good.\n'
+            '(Gen 1:24) God said, “Let the land produce living creatures '
+            'according to their kinds: cattle, creeping things, and wild '
+            'animals, each according to its kind.” It was so.\n'
+            '(Gen 1:25) God made the wild animals according to their kind s, '
+            'the cattle according to their kinds, and all the creatures that '
+            'creep along the ground according to their kinds. God saw that it '
+            'was good.\n'
+            '(Gen 1:26) Then God said, “Let us make humankind in our image, '
+            'after our likeness, so they may rule over the fish of the sea and '
+            'the birds of the air, over the cattle, and over all the earth, '
+            'and over all the creatures that move on the earth.”\n'
+            '(Gen 1:27) God created humankind in his own image, in the image '
+            'of God he created them, male and female he created them.\n'
+            '(Gen 2:9) The Lord God made all kinds of trees grow from the '
+            'soil, every tree that was pleasing to look at and good for food. '
+            '(Now the tree of life and the tree of the knowledge of good and '
+            'evil were in the middle of the orchard.)\n'
+            '(Gen 5:1) This is the record of the family line of Adam. When God '
+            'created humankind, he made them in the likeness of God.\n'
+            '(Gen 6:2) the sons of God saw that the daughters of humankind '
+            'were beautiful. Thus they took wives for themselves from any they '
+            'chose.\n'
+            '(Gen 6:4) The Nephilim were on the earth in those days (and also '
+            'after this) when the sons of God would sleep with the daughters '
+            'of humankind, who gave birth to their children. They were the '
+            'mighty heroes of old, the famous men.\n'
+            '(Gen 9:6) “Whoever sheds human blood, by other humans must his '
+            'blood be shed; for in God’s image God has made humankind.”\n'
+            '(Gen 9:16) When the rainbow is in the clouds, I will notice it '
+            'and remember the perpetual covenant between God and all living '
+            'creatures of all kind s that are on the earth.”\n'
+            '(Exod 31:3) and I have filled him with the Spirit of God in '
+            'skill, in understanding, in knowledge, and in all kind s of '
+            'craftsmanship,\n'
+            '(Exod 35:31) He has filled him with the Spirit of God – with '
+            'skill, with understanding, with knowledge, and in all kind s of '
+            'work,\n'
+            '(Num 22:22) Then God’s anger was kind led because he went, and '
+            'the angel of the Lord stood in the road to oppose him. Now he was '
+            'riding on his donkey and his two servants were with him.\n'
+            '(Num 27:16) “Let the Lord, the God of the spirits of all '
+            'humankind, appoint a man over the community,\n'
+            '(Deut 4:23) Be on guard so that you do not forget the covenant of '
+            'the Lord your God that he has made with you, and that you do not '
+            'make an image of any kind, just as he has forbidden you.\n'
+            '(Deut 4:32) Indeed, ask about the distant past, starting from the '
+            'day God created humankind on the earth, and ask from one end of '
+            'heaven to the other, whether there has ever been such a great '
+            'thing as this, or even a rumor of it.\n'
+            '(2Sam 9:3) The king asked, “Is there not someone left from Saul’s '
+            'family, that I may extend God’s kind ness to him?” Ziba said to '
+            'the king, “One of Jonathan’s sons is left; both of his feet are '
+            'crippled.”\n'
+            '(1Chr 29:2) So I have made every effort to provide what is needed '
+            'for the temple of my God, including the gold, silver, bronze, '
+            'iron, wood, as well as a large amount of onyx, settings of '
+            'antimony and other stones, all kind s of precious stones, and '
+            'alabaster.\n'
+            '(2Chr 6:18) “ God does not really live with humankind on the '
+            'earth! Look, if the sky and the highest heaven cannot contain '
+            'you, how much less this temple I have built!\n'
+            '(Ezra 9:9) Although we are slaves, our God has not abandoned us '
+            'in our servitude. He has extended kind ness to us in the sight of '
+            'the kings of Persia, in that he has revived us to restore the '
+            'temple of our God and to raise up its ruins and to give us a '
+            'protective wall in Judah and Jerusalem.\n'
+            '(Neh 13:14) Please remember me for this, O my God, and do not '
+            'wipe out the kindness that I have done for the temple of my God '
+            'and for its services!\n'
+            '(Ps 143:10) Teach me to do what pleases you, for you are my God. '
+            'May your kind presence lead me into a level land.\n'
+            '(Eccl 7:29) This alone have I discovered: God made humankind '
+            'upright, but they have sought many evil schemes.\n'
+            '(Jer 32:27) “I am the Lord, the God of all humankind. There is, '
+            'indeed, nothing too difficult for me.\n'
+            '(Dan 1:17) Now as for these four young men, God endowed them with '
+            'knowledge and skill in all sorts of literature and wisdom – and '
+            'Daniel had insight into all kind s of visions and dreams.\n'
+            '(Mal 1:9) But now plead for God’s favor that he might be gracious '
+            'to us. “With this kind of offering in your hands, how can he be '
+            'pleased with you?” asks the Lord of Heaven’s Armies.\n'
+            '(Rom 2:4) Or do you have contempt for the wealth of his kindness, '
+            'forbearance, and patience, and yet do not know that God’s kind '
+            'ness leads you to repentance?\n'
+            '(Rom 11:22) Notice therefore the kindness and harshness of God – '
+            'harshness toward those who have fallen, but God’s kind ness '
+            'toward you, provided you continue in his kindness; otherwise you '
+            'also will be cut off.\n'
+            '(1Cor 12:28) And God has placed in the church first apostles, '
+            'second prophets, third teachers, then miracles, gifts of healing, '
+            'helps, gifts of leadership, different kind s of tongues.\n'
+            '(Col 3:12) Therefore, as the elect of God, holy and dearly loved, '
+            'clothe yourselves with a heart of mercy, kind ness, humility, '
+            'gentleness, and patience,\n'
+            '(1Tim 5:21) Before God and Christ Jesus and the elect angels, I '
+            'solemnly charge you to carry out these commands without prejudice '
+            'or favoritism of any kind.\n'
+            '(Titus 3:4) But “when the kindness of God our Savior and his love '
+            'for mankind appeared,\n'
+            '--------------------\n'
+            'REGEXSEARCH::: KJV::: God.*?kind\n'
+            '\n'
+            'x 26 verse(s)\n'
+            '\n'
+            '(Gen 1:11) And God said, Let the earth bring forth grass, the '
+            'herb yielding seed, [and] the fruit tree yielding fruit after his '
+            'kind, whose seed [is] in itself, upon the earth: and it was so.\n'
+            '(Gen 1:21) And God created great whales, and every living '
+            'creature that moveth, which the waters brought forth abundantly, '
+            'after their kind, and every winged fowl after his kind: and God '
+            'saw that [it was] good.\n'
+            '(Gen 1:24) And God said, Let the earth bring forth the living '
+            'creature after his kind, cattle, and creeping thing, and beast of '
+            'the earth after his kind: and it was so.\n'
+            '(Gen 1:25) And God made the beast of the earth after his kind, '
+            'and cattle after their kind, and every thing that creepeth upon '
+            'the earth after his kind: and God saw that [it was] good.\n'
+            '(Gen 20:13) And it came to pass, when God caused me to wander '
+            "from my father's house, that I said unto her, This [is] thy "
+            'kindness which thou shalt show unto me; at every place whither we '
+            'shall come, say of me, He [is] my brother.\n'
+            '(Gen 21:23) Now therefore swear unto me here by God that thou '
+            "wilt not deal falsely with me, nor with my son, nor with my son's "
+            'son: [but] according to the kind ness that I have done unto thee, '
+            'thou shalt do unto me, and to the land wherein thou hast '
+            'sojourned.\n'
+            "(Gen 24:7) The LORD God of heaven, which took me from my father's "
+            'house, and from the land of my kind red, and which spoke unto me, '
+            'and that swore unto me, saying, Unto thy seed will I give this '
+            'land; he shall send his angel before thee, and thou shalt take a '
+            'wife unto my son from thence.\n'
+            '(Gen 24:12) And he said, O LORD God of my master Abraham, I pray '
+            'thee, send me good speed this day, and show kind ness unto my '
+            'master Abraham.\n'
+            '(Gen 31:13) I [am] the God of Bethel, where thou anointedst the '
+            'pillar, [and] where thou vowedst a vow unto me: now arise, get '
+            'thee out from this land, and return unto the land of thy kind '
+            'red.\n'
+            '(Gen 32:9) And Jacob said, O God of my father Abraham, and God of '
+            'my father Isaac, the LORD which saidst unto me, Return unto thy '
+            'country, and to thy kind red, and I will deal well with thee:\n'
+            "(Num 22:22) And God's anger was kind led because he went: and the "
+            'angel of the LORD stood in the way for an adversary against him. '
+            'Now he was riding upon his ass, and his two servants [were] with '
+            'him.\n'
+            '(Deut 6:15) (For the LORD thy God [is] a jealous God among you) '
+            'lest the anger of the LORD thy God be kind led against thee, and '
+            'destroy thee from off the face of the earth.\n'
+            '(Deut 7:4) For they will turn away thy son from following me, '
+            'that they may serve other gods: so will the anger of the LORD be '
+            'kind led against you, and destroy thee suddenly.\n'
+            '(Josh 23:16) When ye have transgressed the covenant of the LORD '
+            'your God, which he commanded you, and have gone and served other '
+            'gods, and bowed yourselves to them; then shall the anger of the '
+            'LORD be kind led against you, and ye shall perish quickly from '
+            'off the good land which he hath given unto you.\n'
+            '(1Sam 11:6) And the Spirit of God came upon Saul when he heard '
+            'those tidings, and his anger was kind led greatly.\n'
+            '(2Kgs 22:17) Because they have forsaken me, and have burned '
+            'incense unto other gods, that they might provoke me to anger with '
+            'all the works of their hands; therefore my wrath shall be kind '
+            'led against this place, and shall not be quenched.\n'
+            '(Neh 9:17) And refused to obey, neither were mindful of thy '
+            'wonders that thou didst among them; but hardened their necks, and '
+            'in their rebellion appointed a captain to return to their '
+            'bondage: but thou [art] a God ready to pardon, gracious and '
+            'merciful, slow to anger, and of great kind ness, and forsookest '
+            'them not.\n'
+            '(Ps 51:1) To the chief Musician, A Psalm of David, when Nathan '
+            'the prophet came unto him, after he had gone in to Bathsheba. '
+            'Have mercy upon me, O God, according to thy lovingkind ness: '
+            'according unto the multitude of thy tender mercies blot out my '
+            'transgressions.\n'
+            '(Ezek 20:47) And say to the forest of the south, Hear the word of '
+            'the LORD; Thus saith the Lord GOD; Behold, I will kind le a fire '
+            'in thee, and it shall devour every green tree in thee, and every '
+            'dry tree: the flaming flame shall not be quenched, and all faces '
+            'from the south to the north shall be burned therein.\n'
+            '(Joel 2:13) And rend your heart, and not your garments, and turn '
+            'unto the LORD your God: for he [is] gracious and merciful, slow '
+            'to anger, and of great kind ness, and repenteth him of the evil.\n'
+            '(Jonah 4:2) And he prayed unto the LORD, and said, I pray thee, O '
+            'LORD, [was] not this my saying, when I was yet in my country? '
+            'Therefore I fled before unto Tarshish: for I knew that thou [art] '
+            'a gracious God, and merciful, slow to anger, and of great kind '
+            'ness, and repentest thee of the evil.\n'
+            '(Acts 3:25) Ye are the children of the prophets, and of the '
+            'covenant which God made with our fathers, saying unto Abraham, '
+            'And in thy seed shall all the kind reds of the earth be blessed.\n'
+            '(1Cor 6:9) Know ye not that the unrighteous shall not inherit the '
+            'kingdom of God? Be not deceived: neither fornicators, nor '
+            'idolaters, nor adulterers, nor effeminate, nor abusers of '
+            'themselves with mankind,\n'
+            '(Col 3:12) Put on therefore, as the elect of God, holy and '
+            'beloved, bowels of mercies, kind ness, humbleness of mind, '
+            'meekness, longsuffering;\n'
+            '(2Pet 1:7) And to godliness brotherly kind ness; and to brotherly '
+            'kindness charity.\n'
+            '(Rev 5:9) And they sung a new song, saying, Thou art worthy to '
+            'take the book, and to open the seals thereof: for thou wast '
+            'slain, and hast redeemed us to God by thy blood out of every kind '
+            'red, and tongue, and people, and nation;',
+ 'keyword': 'REGEXSEARCH',
+ 'parameter_1': 'NET_KJV',
+ 'parameter_2': 'God.*?kind'}
+```

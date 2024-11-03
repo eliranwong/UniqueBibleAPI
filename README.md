@@ -81,13 +81,13 @@ There are two commands that are supported ONLY in web APIs, not in other UniqueB
 
 This command retrieves information about available resources loaded in the web server.
 
-Read more at https://github.com/eliranwong/UniqueBibleAPI/blob/main/.resources.md
+Read more at https://github.com/eliranwong/UniqueBibleAPI/.suggestions.md
 
 `.suggestions`
 
 This command retrieves nested suggestions of UniqueBible App commands.
 
-Read more at https://github.com/eliranwong/UniqueBibleAPI/blob/main/.suggestions.md
+Read more at https://github.com/eliranwong/UniqueBibleAPI/.suggestions.md
 
 # Available Web API Endpoints
 
@@ -146,3 +146,5 @@ In addition, we base our examples on the data retrieved from https://bible.gospe
 We will regularly add or update the documenation in this repository.
 
 The writings are in progress ...
+
+Meanwhile, you may visit https://bible.gospelchurch.uk/index.html?cmd=.help for a full list of UBA commands.

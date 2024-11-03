@@ -1,3 +1,46 @@
+# TSKE
+
+Keyword: TSKE
+
+Keyword description:
+
+* Open Treasury of Scripture Knowledge (Enhanced) cross-references for studying a bible verse.
+* Retrieve verse content from the previously opened bible version.
+
+Parameter: BIBLE_REFERENCE [required]
+
+Parameter description:
+
+* Specify a verse reference.
+
+# Command Format
+
+TSKE:::[BIBLE_REFERENCE]
+
+# Examples
+
+Command: `BIBLE:::NET:::John 3:16`
+
+URL: https://bible.gospelchurch.uk/json?cmd=BIBLE:::NET:::John%203:16
+
+Output:
+
+```
+{'content': '(John 3:16) For this is the way God loved the world: He gave his '
+            'one and only Son, so that everyone who believes in him will not '
+            'perish but have eternal life.',
+ 'keyword': 'BIBLE',
+ 'parameter_1': 'NET',
+ 'parameter_2': 'John 3:16'}
+```
+
+Command: `TSKE:::John 3:16`
+
+URL: https://bible.gospelchurch.uk/json?cmd=TSKE:::John%203:16
+
+Output:
+
+```
 {'content': 'TSKE: John 3:16\n'
             '\n'
             'KJV [1769]\n'
@@ -275,3 +318,4 @@
             '--------------------',
  'keyword': 'TSKE',
  'parameter_1': 'John 3:16'}
+```

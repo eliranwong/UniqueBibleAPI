@@ -10,7 +10,7 @@ Parameter: COMMENTARY_MODULE [optional]
 
 Parameter description:
 
-* Specify a commentary module
+* Specify a commentary module.
 * Use default commentary module if this parameter is not given.
 
 Parameter: BIBLE_REFERENCES [required]

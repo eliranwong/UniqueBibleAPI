@@ -12,7 +12,7 @@ Parameter: BIBLE_VERSION [optional]
 
 Parameter description:
 
-* Specify a bible version
+* Specify a bible version.
 * Use default bible version if this parameter is not given.
 
 Parameter: SEARCH_STRING [required]
